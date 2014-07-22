@@ -1,0 +1,107 @@
+.menu-bar
+{
+	background-color: #999999;
+}
+
+.slide
+{
+	padding: 0px;
+}
+
+/* Event menu define */
+.event-menu
+{
+	height: 100px;
+	padding: 0px;
+}
+
+.event-menu > div.event-menu-item
+{
+	background-color: #00e6e6;
+	margin-top: -20px;
+	padding: 0px;
+}
+
+.button-size
+{
+	height: 100%;
+	width: 100%;
+	background-color: #00e6e6;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.button-size > span
+{
+	padding-top: 15%;
+}
+
+.button-size > p
+{
+	color: #ffffff;
+	text-align: center;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 10px;
+	padding-top: 10%;
+}
+/* End define menu */
+
+/* Conntent define */
+.wrapper-content
+{
+	background-color: white;
+}
+
+.content-item-1
+{
+	height: 700px;
+	background-color: white;
+	color: black;
+}
+
+.content-item-1 > h1
+{
+	font-size: 15px;
+}
+
+.content-item-2
+{
+	min-height: 700px;
+	background-color: white;
+	color: black;
+}
+
+.content-item-2 > h1
+{
+	font-size: 15px;
+}
+/* End conntent define */
+
+/* Footer define */
+.footer-panel
+{
+	height: 300px;
+	background-color: #00e6e6;
+}
+
+.footer
+{
+	height: 25px;
+	background-color: #00e6e6;
+}
+
+.footer > div
+{
+	border-top: 2px ridge #b8f8f8;
+}
+/* End footer define */
+
+p.copy
+{
+	font-size: 12px;
+	color: #2b7d7d;
+	margin: 0px;
+	text-align: right;
+}
