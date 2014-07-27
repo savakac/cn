@@ -1,6 +1,16 @@
 .menu-bar
 {
-	background-color: #999999;
+	background-color: #ffffff;
+}
+
+.logo-bar
+{
+	
+}
+
+.search-icon
+{
+	top: 0px;
 }
 
 .slide
@@ -17,7 +27,7 @@
 
 .event-menu > div.event-menu-item
 {
-	background-color: #00e6e6;
+	background-color: #00cccc;
 	margin-top: -20px;
 	padding: 0px;
 }
@@ -26,7 +36,7 @@
 {
 	height: 100%;
 	width: 100%;
-	background-color: #00e6e6;
+	background-color: #00cccc;
 	border-radius: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -82,14 +92,27 @@
 /* Footer define */
 .footer-panel
 {
-	height: 300px;
-	background-color: #00e6e6;
+	min-height: 300px;
+	background-color: #00cccc;
 }
 
-.footer
+.footer-square
+{
+	padding: 20px;
+}
+
+.footer-square > p
+{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	border-bottom: 1px dotted white;
+	font-weight: bold;
+}
+.footer-copy
 {
 	height: 25px;
-	background-color: #00e6e6;
+	background-color: #00cccc;
 }
 
 .footer > div

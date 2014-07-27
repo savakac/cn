@@ -11,19 +11,23 @@
 </head>
 <body>
 	<div class="container">
+
 		<div class="row">
-			<div class="col-xs-12 menu-bar">
+			<div class="col-md-5 menu-bar logo-bar">
 
 				<a class="navbar-brand" href="#">Cestou necestou</a>
 
-				<form class="navbar-form navbar-right" role="search" style="padding-right: 20px; padding-left: 20px">
+			</div>
+
+			<div class="col-xs-7">
+				<form class="navbar-form navbar-right form-search search-box" role="search">
 					<div class="form-group has-success has-feedback">
-						<input type="text" class="form-control" placeholder="Search">
-						<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						<input type="text" class="form-control input-search" placeholder="Search">
+						<span class="glyphicon glyphicon-search form-control-feedback search-icon"></span>
 					</div>
 				</form>
-		
 			</div>
+		
 		</div>
 
 		<div class="row">
@@ -134,18 +138,41 @@
 		</div>
 
 		<div class="row footer-panel">
-			<div class="col-md-12">
-
+		<div class="col-md-10 col-md-offset-1">
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 footer-square">
+						<p>NAVIÁCIA</p>
+					</div>
+					<div class="col-md-2 footer-square">
+						<p>ARCHÍV</p>
+					</div>
+					<div class="col-md-4 footer-square">
+						<p>CESTOU NECESTOU</p>
+					</div>
+					<div class="col-md-2 footer-square">
+						<p>KONTAKT</p>
+					</div>
+				</div>
 			</div>
+		
 		</div>
+	</div>
 
-		<div class="row footer">
-			<div class="col-md-8 col-md-offset-2">
-				<p class="copy">Copyright &copy 2014</p>
+		<div class="row footer-copy">
+		<div class="col-md-12 col-md-offset-1">
+			<div class="container">
+				<div class="row footer">
+					<div class="col-md-10">
+						<p class="copy">Copyright &copy 2014</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
+</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!--JQuery-->
 	<script src="js/bootstrap.min.js"></script> <!--Bootstrap script-->
 	<script type="text/javascript" src="js/main.js"></script>
