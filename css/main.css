@@ -1,3 +1,4 @@
+/*Top define*/
 .menu-bar
 {
 	background-color: #ffffff;
@@ -32,7 +33,7 @@
 	padding: 0px;
 }
 
-.button-size
+.button-menu
 {
 	height: 100%;
 	width: 100%;
@@ -42,12 +43,17 @@
 	padding: 0px;
 }
 
-.button-size > span
+.button-menu:hover, .button-menu:active, .button-menu:focus
+{
+	background-color: #ff9933;
+}
+
+.button-menu > span
 {
 	padding-top: 15%;
 }
 
-.button-size > p
+.button-menu > p
 {
 	color: #ffffff;
 	text-align: center;
@@ -103,7 +109,7 @@
 
 .footer-square > p
 {
-	text-align: center;
+	text-align: left;
 	padding-top: 20px;
 	padding-bottom: 0px;
 	border-bottom: 1px dotted white;
@@ -111,11 +117,11 @@
 }
 .footer-copy
 {
-	height: 25px;
+	min-height: 25px;
 	background-color: #00cccc;
 }
 
-.footer > div
+.footer
 {
 	border-top: 2px ridge #b8f8f8;
 }
