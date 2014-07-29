@@ -1,12 +1,40 @@
 /*Top define*/
 .menu-bar
 {
+	padding: 0px;
 	background-color: #ffffff;
+}
+
+.menu-bar-one
+{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.info-panel1
+{
+	text-align: left;
+}
+
+.info-panel2
+{
+	text-align: center;
+}
+
+.info-panel3
+{
+	text-align: right;
 }
 
 .logo-bar
 {
-	
+	width: 225px;
+	height: 100px;
+	position: absolute;
+	top: -10px;
+	left: 10%;
+	background-color: #ffffff;
+	z-index: 10;
 }
 
 .search-icon
@@ -14,22 +42,60 @@
 	top: 0px;
 }
 
+.search-box
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+}
+
+.search-box > div
+{
+	width: 100%;
+}
+
+.form-input
+{
+	width: 100%;
+}
+
+.social-image > img
+{
+	padding: 10px;
+}
+
 .slide
 {
 	padding: 0px;
 }
 
+.slide-indicator
+{
+	bottom: 90px;
+	z-index: 10
+}
+
+.carousel-text
+{
+	width: 130px;
+	top: 10%;
+	bottom: 30%;
+	left: 70%;
+}
+
 /* Event menu define */
 .event-menu
 {
-	height: 100px;
+	height: 135px;
 	padding: 0px;
+	z-index: 15;
 }
 
 .event-menu > div.event-menu-item
 {
-	background-color: #00cccc;
-	margin-top: -20px;
+	height: 100%;
+	background-color: #63c7bf;
+	margin-top: -90px;
 	padding: 0px;
 }
 
@@ -37,7 +103,7 @@
 {
 	height: 100%;
 	width: 100%;
-	background-color: #00cccc;
+	background-color: #63c7bf;
 	border-radius: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -45,22 +111,25 @@
 
 .button-menu:hover, .button-menu:active, .button-menu:focus
 {
-	background-color: #ff9933;
+	background-color: #ffd380;
 }
 
 .button-menu > span
 {
-	padding-top: 15%;
+	padding-top: 20px;
+	font-size: 45px;
 }
 
 .button-menu > p
 {
+	white-space: normal;
+	padding-top: 35px;
 	color: #ffffff;
 	text-align: center;
 	font-family: sans-serif;
 	font-style: italic;
-	font-size: 10px;
-	padding-top: 10%;
+	font-weight: bold;
+	font-size: 12px;
 }
 /* End define menu */
 
@@ -99,7 +168,7 @@
 .footer-panel
 {
 	min-height: 300px;
-	background-color: #00cccc;
+	background-color: #63c7bf;
 }
 
 .footer-square
@@ -118,7 +187,7 @@
 .footer-copy
 {
 	min-height: 25px;
-	background-color: #00cccc;
+	background-color: #63c7bf;
 }
 
 .footer

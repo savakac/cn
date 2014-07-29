@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo.png">
 
 	<title>Testing bootstrap</title>
 
@@ -13,18 +14,40 @@
 <body>
 	<!-- Wrapper container head panel and slide -->
 	<div class="container">
-		<div class="row">
-			<div class="col-md-5 menu-bar logo-bar">
-				<a class="navbar-brand" href="#">Cestou necestou</a>
+
+		<div class="row menu-bar-one">
+
+			<div class="col-xs-4 menu-bar">
+				<div class="logo-bar">
+					<img src="images/logo_cn.jpg" alt="">
+				</div>
 			</div>
 
-			<div class="col-xs-7">
-				<form class="navbar-form navbar-right form-search search-box" role="search">
+			<div class="col-xs-2 info-panel1">
+				<a href="#">NEWSLETTER</a>
+			</div>
+			<div class="col-xs-2 info-panel2">
+				<a href="#">PRESS</a>
+			</div>
+			<div class="col-xs-2 info-panel3">
+				<a href="#">PARTNERI</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-4">
+				<form class="col-xs-6 form-search search-box" role="search">
 					<div class="form-group has-control has-feedback">
-						<input type="text" class="form-control input-search" placeholder="Search">
+						<input type="text" class="form-control input-search form-input" placeholder="Search">
 						<span class="glyphicon glyphicon-search form-control-feedback search-icon"></span>
 					</div>
 				</form>
+			</div>
+
+			<div class="col-xs-2 social-image">
+				<img src="images/facebook-icon.png" alt="">
+				<img src="images/gplus.png" alt="">
+				<img src="images/twitter.png" alt="">
 			</div>
 		</div>
 
@@ -32,7 +55,7 @@
 			<div class="col-lg-12 slide">	
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
- 					<ol class="carousel-indicators">
+ 					<ol class="carousel-indicators slide-indicator">
     					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
     					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -42,19 +65,19 @@
   					<div class="carousel-inner">
     					<div class="item active">
       						<img src="images/image1.jpg" alt="">
-      							<div class="carousel-caption">
+      							<div class="carousel-caption carousel-text">
         							Image 1
       							</div>
     					</div>
     					<div class="item">
       						<img src="images/image2.jpg" alt="">
-      							<div class="carousel-caption">
+      							<div class="carousel-caption carousel-text">
         							Image 2
       							</div>
     					</div>
     					<div class="item">
       						<img src="images/image3.jpg" alt="">
-      							<div class="carousel-caption">
+      							<div class="carousel-caption carousel-text">
         							Image 3
       							</div>
     					</div>
@@ -73,35 +96,35 @@
 	
 		<div class="row event-menu">
 
-			<div class="col-xs-2 col-xs-offset-1 event-menu-item">
+			<div class="col-md-2 col-sm-3 col-md-offset-1 event-menu-item">
 				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
 					<span class="glyphicon glyphicon-calendar"></span>
 					<p>KALENDÁR AKCIÍ</p>
 				</a>
 			</div>			
 		
-			<div class="col-xs-2 event-menu-item">
+			<div class="col-md-2 col-sm-2 event-menu-item">
 				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
 					<span class="glyphicon glyphicon-bullhorn"></span>
 					<p>AKTUALITY</p>
 				</a>
 			</div>
 		
-			<div class="col-xs-2 event-menu-item">
+			<div class="col-md-2 col-sm-2 event-menu-item">
 				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
 					<span class="glyphicon glyphicon-picture"></span>
 					<p>FESTIVAL CESTOU NECESTOU</p>
 				</a>
 			</div>
 		
-			<div class="col-xs-2 event-menu-item">
+			<div class="col-md-2 col-sm-2 event-menu-item">
 				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
 					<span class="glyphicon glyphicon-facetime-video"></span>
 					<p>PREDNÁŠKY</p>
 				</a>
 			</div>
 		
-			<div class="col-xs-2 event-menu-item">
+			<div class="col-md-2 col-sm-3 event-menu-item">
 				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
 					<span class="glyphicon glyphicon-user"></span>
 					<p>PREDNÁŠAJÚCI</p>
