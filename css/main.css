@@ -86,22 +86,35 @@
 /* Event menu define */
 .event-menu
 {
-	height: 135px;
+	min-height: 135px;
 	padding: 0px;
 	z-index: 15;
+	margin-top: -90px;
 }
 
-.event-menu > div.event-menu-item
+.menu
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.navCollapse
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding: 0px;
+}
+
+.navCollapse > div.event-menu-item
 {
 	height: 100%;
 	background-color: #63c7bf;
-	margin-top: -90px;
 	padding: 0px;
 }
 
 .button-menu
 {
-	height: 100%;
+	height: 135px;
 	width: 100%;
 	background-color: #63c7bf;
 	border-radius: 0px;
@@ -123,7 +136,7 @@
 .button-menu > p
 {
 	white-space: normal;
-	padding-top: 35px;
+	padding-top: 30px;
 	color: #ffffff;
 	text-align: center;
 	font-family: sans-serif;

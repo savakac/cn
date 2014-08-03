@@ -51,7 +51,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row hidden-xs">
 			<div class="col-lg-12 slide">	
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
@@ -93,45 +93,52 @@
 				</div>
 			</div>
 		</div>
-	
-		<div class="row event-menu">
+ 
+		<div class="row event-menu">			
+			<div class="container menu">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navCollapse">
+					<span class="glyphicon glyphicon-align-justify"></span>
+				</button>
+				<div class="collapse navbar-collapse navCollapse">
 
-			<div class="col-md-2 col-sm-3 col-md-offset-1 event-menu-item">
-				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
-					<span class="glyphicon glyphicon-calendar"></span>
+					<div class="col-lg-2 col-md-2 col-sm-3 col-md-offset-1 event-menu-item">
+						<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
+							<span class="glyphicon glyphicon-calendar"></span>
 					<p>KALENDÁR AKCIÍ</p>
-				</a>
+						</a>
+					</div>			
+				
+					<div class="col-lg-2 col-md-2 col-sm-2 event-menu-item">
+						<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
+							<span class="glyphicon glyphicon-bullhorn"></span>
+							<p>AKTUALITY</p>
+						</a>
+					</div>
+		
+					<div class="col-lg-2 col-md-2 col-sm-2 event-menu-item">
+						<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
+							<span class="glyphicon glyphicon-picture"></span>
+							<p>FESTIVAL CESTOU NECESTOU</p>
+						</a>
+					</div>
+		
+					<div class="col-lg-2 col-md-2 col-sm-2 event-menu-item">
+						<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
+							<span class="glyphicon glyphicon-facetime-video"></span>
+							<p>PREDNÁŠKY</p>
+						</a>
+					</div>
+		
+					<div class="col-lg-2 col-md-2 col-sm-3 event-menu-item">
+						<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
+							<span class="glyphicon glyphicon-user"></span>
+							<p>PREDNÁŠAJÚCI</p>
+						</a>
+					</div>
+				</div>				
 			</div>			
-		
-			<div class="col-md-2 col-sm-2 event-menu-item">
-				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
-					<span class="glyphicon glyphicon-bullhorn"></span>
-					<p>AKTUALITY</p>
-				</a>
-			</div>
-		
-			<div class="col-md-2 col-sm-2 event-menu-item">
-				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
-					<span class="glyphicon glyphicon-picture"></span>
-					<p>FESTIVAL CESTOU NECESTOU</p>
-				</a>
-			</div>
-		
-			<div class="col-md-2 col-sm-2 event-menu-item">
-				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
-					<span class="glyphicon glyphicon-facetime-video"></span>
-					<p>PREDNÁŠKY</p>
-				</a>
-			</div>
-		
-			<div class="col-md-2 col-sm-3 event-menu-item">
-				<a href="#" type="button" class="btn btn-default btn-lg col-md-2 button-menu">
-					<span class="glyphicon glyphicon-user"></span>
-					<p>PREDNÁŠAJÚCI</p>
-				</a>
-			</div>
-		
 		</div>
+
 	</div>
 	<!-- End wrapper head panel and slide -->
 
