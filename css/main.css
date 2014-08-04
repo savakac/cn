@@ -1,4 +1,7 @@
-/*Top define*/
+/*Style page cn
+@autor Jan Salva*/
+
+/*Header row*/
 .menu-bar
 {
 	padding: 0px;
@@ -11,19 +14,31 @@
 	padding-bottom: 10px;
 }
 
-.info-panel1
+.menu-bar-one-xs
 {
-	text-align: left;
-}
-
-.info-panel2
-{
+	height: 100px;
 	text-align: center;
+	margin-top: 70px;
+	padding: 30px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
-.info-panel3
+.menu-button-xs
 {
-	text-align: right;
+	margin: 10px;
+}
+
+.menu-button-xs > span
+{
+	font-size: 30px;
+}
+
+.info-panel
+{
+	font-size: 10px;
+	padding-bottom: 10px;
+	word-spacing: 20px;
 }
 
 .logo-bar
@@ -33,6 +48,15 @@
 	position: absolute;
 	top: -10px;
 	left: 10%;
+	background-color: #ffffff;
+	z-index: 10;
+}
+
+.logo-bar-xs
+{
+	width: 225px;
+	height: 100px;
+	position: absolute;
 	background-color: #ffffff;
 	z-index: 10;
 }
@@ -59,9 +83,20 @@
 	width: 100%;
 }
 
-.social-image > img
+.social-network
 {
-	padding: 10px;
+	margin-top: 25px;
+}
+
+.social-network-xs
+{
+	padding: 20px;
+	text-align: center;
+}
+
+.social-network > a
+{
+	padding-left: 3px;
 }
 
 .slide
@@ -86,35 +121,22 @@
 /* Event menu define */
 .event-menu
 {
-	min-height: 135px;
+	height: 135px;
 	padding: 0px;
 	z-index: 15;
-	margin-top: -90px;
 }
 
-.menu
-{
-	padding: 0px;
-	margin: 0px;
-}
-
-.navCollapse
-{
-	padding-left: 0px;
-	padding-right: 0px;
-	padding: 0px;
-}
-
-.navCollapse > div.event-menu-item
+.event-menu > div.event-menu-item
 {
 	height: 100%;
 	background-color: #63c7bf;
+	margin-top: -90px;
 	padding: 0px;
 }
 
 .button-menu
 {
-	height: 135px;
+	height: 100%;
 	width: 100%;
 	background-color: #63c7bf;
 	border-radius: 0px;
