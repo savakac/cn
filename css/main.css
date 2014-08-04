@@ -179,6 +179,7 @@
 	height: 700px;
 	background-color: white;
 	color: black;
+	border: 1px solid black;
 }
 
 .content-item-1 > h1

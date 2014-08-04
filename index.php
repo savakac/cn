@@ -162,18 +162,54 @@
 	<!-- Wrapper conntent -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 wrapper-content">
+			<div class="col-sm-12 wrapper-content">
 				<div class="row">
 		
-					<div class="col-md-5 col-md-offset-1 content-item-1">
-						<h1>Galeria</h1>
+					<div class="col-sm-5 col-sm-offset-1 content-item-1">
+						<h1>NAJBLIŽŠIE AKCIE</h1>
 					</div>
 		
-					<div class="col-md-5 content-item-1">
-						<h1>Aktuality</h1>
+					<div class="col-sm-5 content-item-1">
+						<h1>NOVINKY</h1>
 					</div>
 		
 				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				<p>Banner</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+
+					<div class="col-sm-5 col-sm-offset-1 content-item-1">
+						<h1>GALÉRIA</h1>
+					</div>
+
+					<div class="col-sm-5 content-item-1">
+						<h1>BUĎ SÚČASŤOU</h1>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>PARTNERY</h1>
 			</div>
 		</div>
 	</div>
@@ -183,7 +219,7 @@
 	<div class="container">		
 		<div class="row footer-panel">		
 			<div class="col-md-2 col-md-offset-1 footer-square">
-				<p>NAVIÁCIA</p>
+				<p>NAVIGÁCIA</p>
 			</div>
 		
 			<div class="col-md-2 footer-square">
@@ -201,7 +237,7 @@
 		
 		<div class="row footer-copy">
 			<div class="col-md-10 col-md-offset-1 footer">
-				<p class="copy">Copyright &copy 2014</p>
+				<p class="copy">COPYRIGHT &copy 2014 BY OZ CESTOU NECESTOU</p>
 			</div>
 		</div>
 	</div>
